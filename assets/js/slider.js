@@ -8,7 +8,7 @@ setInterval(() => {
 function nextImg() {
   cont++
 
-  cont > 4 ? cont = 1: cont;
+  cont > 6 ? cont = 1: cont;
 
   document.getElementById(`radio${cont}`).checked = true;
 }

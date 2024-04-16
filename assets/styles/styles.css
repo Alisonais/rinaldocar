@@ -164,7 +164,7 @@ body {
 }
 
 main {
-  margin: 32px 0px;
+  margin: 64px 0px;
   opacity: 0;
 
   animation: opacity 1s forwards;
@@ -179,7 +179,7 @@ main {
   font-weight: 900;
   color: white;
   font-size: 32px;
-  padding-left: 8px;
+  text-align: center;
   padding-bottom: 4px;
   letter-spacing: -3px;
 }

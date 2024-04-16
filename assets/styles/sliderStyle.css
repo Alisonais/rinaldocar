@@ -20,17 +20,17 @@ section.slider {
 }
 
 .slidercontent {
-  width: 400%;
+  width: 600%;
   height: auto;
   display: flex;
 
-  input{
+  input {
     display: none;
   }
 }
 
 .slidebox {
-  width: 25%;
+  width: 16.66%;
   height: auto;
   position: relative;
   text-align: center;
@@ -39,6 +39,7 @@ section.slider {
   img {
     width: 90%;
     border-radius: 20px;
+    aspect-ratio: 4/3;
     border: 2px solid #222;
   }
 }
@@ -64,23 +65,32 @@ section.slider {
   background-color: #0f2e89;
 }
 
-#radio1:checked ~ .navauto .autobtn1, #radio2:checked ~ .navauto .autobtn2, #radio3:checked ~ .navauto .autobtn3, #radio4:checked ~ .navauto .autobtn4 {
+#radio1:checked ~ .navauto .autobtn1,
+#radio2:checked ~ .navauto .autobtn2,
+#radio3:checked ~ .navauto .autobtn3,
+#radio4:checked ~ .navauto .autobtn4,
+#radio5:checked ~ .navauto .autobtn5,
+#radio6:checked ~ .navauto .autobtn6  {
   background-color: #0f2e89;
 }
 
 #radio1:checked ~ .primeiro {
   margin-left: 0%;
 }
-
 #radio2:checked ~ .primeiro {
-  margin-left: -25%;
+  margin-left: -16.66%;
 }
-
 #radio3:checked ~ .primeiro {
-  margin-left: -50%;
+  margin-left: -33.32%;
 }
 #radio4:checked ~ .primeiro {
-  margin-left: -75%;
+  margin-left: -49.98%;
+}
+#radio5:checked ~ .primeiro {
+  margin-left: -66.64%;
+}
+#radio6:checked ~ .primeiro {
+  margin-left: -83.3%;
 }
 
 @media screen and (min-width: 768px) {
@@ -89,7 +99,7 @@ section.slider {
   }
 
   .navmanual, .navauto {
-    margin-top: 81%;
+    margin-top: 61%;
   }
 }
 
@@ -99,6 +109,6 @@ section.slider {
   }
 
   .navmanual, .navauto {
-    margin-top: 61%;
+    margin-top: 46%;
   }
 }
