@@ -182,7 +182,6 @@ main {
   font-size: 32px;
   text-align: center;
   padding-bottom: 4px;
-  letter-spacing: -3px;
 }
 
 .cardcontainer {
@@ -232,7 +231,7 @@ main {
   display: flex;
   justify-content: center;
   width: 400px;
-  height: 350px;
+  height: auto;
   
   img {
     width: 100%;
@@ -308,7 +307,6 @@ footer img {
 
   .mapLocation {
     width: 600px;
-    height: 450px;
 
     img {
       border-radius: 30px;
@@ -352,7 +350,6 @@ footer img {
 
   .mapLocation {
     width: 800px;
-    height: 650px;
 
     img {
       border-radius: 40px;
@@ -396,7 +393,6 @@ footer img {
 
   .mapLocation {
     width: 950px;
-    height: 800px;
 
     img {
       border-radius: 60px;
